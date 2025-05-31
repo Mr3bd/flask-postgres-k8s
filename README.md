@@ -30,7 +30,7 @@ A simple RESTful API to manage a list of books using Flask and PostgreSQL, deplo
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/books-api-k8s.git
+git clone https://github.com/Mr3bd/flask-postgres-k8s.git
 cd books-api-k8s
 
 ### 2. Build and Push the Docker Image
