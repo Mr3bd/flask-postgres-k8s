@@ -36,13 +36,17 @@ cd books-api-k8s
 ### 2. Build and Push the Docker Image
 
 cd app
-docker build -t yourdockerhubusername/books-api:latest .
-docker push yourdockerhubusername/books-api:latest
+docker build -t mr3bdger/books-api:latest .
+docker push mr3bdger/books-api:latest
 cd ..
 
 Update the image name in k8s/flask-deployment.yaml:
 
-image: yourdockerhubusername/books-api:latest
+image: mr3bdger/books-api:latest
+
+```
+Don't forget to change my username (mr3bdger) to your username.
+```
 
 ### 3. Start Minikube
 
